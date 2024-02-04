@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
       label: 'Click!',
     },
   ],
-  image: `${NEXT_PUBLIC_URL}/park-1.png`,
+  image: `${NEXT_PUBLIC_URL}/music-1.png`,
   input: {
     text: 'Tell me a boat story',
   },
