@@ -14,10 +14,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'frame_megumii.blessingway.xyz',
+  title: 'frames_megumii.blessingway.xyz',
   description: 'Permaframe',
   openGraph: {
-    title: 'frame_megumii.blessingway.xyz',
+    title: 'frames_megumii.blessingway.xyz',
     description: 'Permaframe',
     images: [`${NEXT_PUBLIC_URL}/music-1.png`],
   },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>frame_megumii.blessingway.xyz</h1>
+      <h1>frames_megumii.blessingway.xyz</h1>
     </>
   );
 }
