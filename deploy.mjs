@@ -2,7 +2,7 @@ import Irys from "@irys/sdk";
 import { WarpFactory, defaultCacheOptions } from "warp-contracts";
 import Arweave from "arweave";
 
-const ANT = "PDi4myhBweWJvTg3eXQDY82fFc-sjq1fqorMj69ZekI";
+const ANT = "7Q_92xxEGJ6HkBop11D0gWLS-cW6gODpbv9RN71Hq8I";
 const DEPLOY_FOLDER = "./out";
 const IRYS_NODE = "https://up.arweave.net";
 
@@ -20,7 +20,7 @@ const result = await irys.uploadFolder(DEPLOY_FOLDER, {
 // update ANT
 await contract.writeInteraction({
 	function: "setRecord",
-	subDomain: "exp",
+	subDomain: "frame",
 	transactionId: result.id,
 });
 
